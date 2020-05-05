@@ -49,10 +49,23 @@ getion de monitoreo y control{
             identificar los datos de pruebas
             identificar el entorno de pruebas-infraestructura y herramientas
             hacer una trazabilidad entre pruebas y sus condiciones
-            
+
         } 
-        implementacion de puebas 
-        ejecucion de prienas
-        finalizacion de las pruebas
+        implementacion de puebas: para prepararnos para hacer las pruebas tenemos que asegurarnos de tener todo lo necesaario par ello
+        ejecucion de pruebas{
+            se ejecutan de acuerdo con el programa de ejecucion
+        }
+        finalizacion de las pruebas{
+            saber que porcentaje se cubrio 
+            cuantos defectos se derivaron:teccnicas o de proceso
+            aprender lecciones del defecto, falto documentacion o no se entendio bien
+            cuantas pruebas se nesecitan hacer para mantenerlas actualizadas
+        }
     }
+}
+roles y responsabilidades{
+    tester de puebas manuales
+    especialista en pruebas tecnicas
+    lider del equipo de pueba 
+    ingeniero de calidad
 }
