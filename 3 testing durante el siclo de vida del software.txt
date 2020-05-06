@@ -1,0 +1,263 @@
+contruccion del software{
+    presupuesto, recursos y timpo
+    actividades claves de pruebas:
+    para no salirnos de tiempo ni presupuesto
+    ciclo de vida del software:{
+        analisis ,diseño ,codificacion,puebas,
+
+        validacion,mantenimiento y evolucion ,definimos las nesecidades y vualta a la face de analisis
+
+Etapa de anañlisis : se analiza la documentacion de los requerimientos del proyecto{
+
+    grupo de pruevas : que deveria hacer el software si el usuario tiene una seccion fallida, y cuando no.
+    obserbar cada uno de los argumentos que pueda introducir el usuario
+
+Face de diseño: establecemos los criterios visuales:{
+
+    imput:podria accectar simbolos , letras, numeros,
+    si itroduces el imput correcto o
+    cuantas veces te deja ingresar los datos de manera incorrecta antes de bloquear el sistema
+
+Face de codigo {
+    tendras modulos ,
+    fuciones o estructura de la base de datos
+    se pueden verificar los datos sin modulos o funciones, 
+    podemos testear el backend y el frontend por separado
+}
+Face de pruebas:{
+    se pueden hacer pruebas en distintos faces o dispocitivos , 
+    o la parte funciona , 
+    tambien hay  pruebas de validacion o de acceptacion
+
+Estrategia de pruebas {
+    que problemas tenemos que resolver 
+    que problema tenemos que evitar
+
+    seguridad
+    arquitectura
+    performance
+    usabilidad
+    escalabilidad
+
+
+    seguridad{
+        pataformas{
+            sispocitivos moviles{
+                con internet
+                sin internet
+            }
+            reloj inteligente{
+                conectado 
+                sin conectar
+            }
+        }
+        sistemas operativos
+        accesos{
+            administrador
+            usuario final{
+                premium
+                estandar
+            }
+        }
+        datos de entrada
+        reportes{a,b,c}
+    }
+}
+
+arquitectura migracion{
+    accesos{
+        administrador 
+        usuario final{
+            premiun
+            standar
+        }
+    }
+    plataformas{
+        anteriores : android
+        nuevas : iphone , alcatel
+    }
+    apis{
+        usurarios{
+            alta
+            baja
+            consulta
+        }
+        modulos de inventario
+        modulo de dacturacion
+
+    }
+    volumenes{
+        500 usuario 
+        1000 usuarios 
+        5000 usuarios
+    }
+}
+
+testing y checking:{
+    exploracion de una idea y nunca termina,
+    el checking solo verificas que algo este pasando
+    checking es bueno paro no se debe confundir con el testing y sus ventajas
+    las ejecutamos de manera programada y cada vez que lideremos un projecto
+    error: hacer varias veces el checking porque te consume tiempo{
+        pruebas duplicadas
+        pruevas similares
+        pruebas sin valor
+        pruebas caducadas
+    }
+    la automatizacion de pruebas consiste en{
+        controlar, 
+        hacer checking repetitivo 
+        automatizado
+
+    desventajas del checking mal empleado:{
+        pobre cobertura de pruebas,
+        falta de actualizacion,
+        mal manejo de verciones
+
+    ventajas:{
+        correr pruebas de manera paralela 
+        multiples plataformas
+        reduccion de error humano
+        probar grandes cantidades de datos
+
+cuando es esencial la automatizacion{
+    en devops, 
+    integracion continua,
+    liberacion continua y 
+    automatizacion
+}
+el testing te permite explorar y el checking te permite automatizar
+
+Testing Ágil{
+    al desarrollar software nesecitamos metodologias par haccerlos de la mejor forma y optimizando todo
+    todos tienen que participar
+
+    estrategia agile{
+        testing puede ser independientes
+        integracion continua:todo se ejecuta de manera automatzada
+
+
+        como es {
+            escuchar a todo el equipo
+            dividir las tareas en otras mas pequeñas,o en componentes
+            provar todos los componentes,integraciones , aceptacion
+        }
+    }
+}
+
+niveles de pruebas de software: como separar las pruebas{
+    pruebas de componentes
+    pruebas de integracion: como se integran todos los sistemas y todos se comunican
+    pruebas de sistema:porbarlo en multiples sistemas
+    pruebas de aceptacion: que el software cumppla con todos los requerimientos del cliente o de la idea inicial.
+}
+tipos de pruebas de software: que tendremos que realizar{
+    pruebas funcionales :como funcion un sisteama, como interactua el usuario con el ,
+    pruebas no funcionales: velocidad , color , usabilidad.
+    pruebas estructurales:{
+        que funcione bien la base de datos, 
+        como se esta armardo el software
+    }
+    pruebas par manejo de cambios:{
+        probar todo el sistema despues de cada actualizacion o cambios
+    }
+    pruebas dinamica{
+        clasificamos las actividades,
+        cuando hacemos pruebas de backend de fontend 
+        pruebas de estructura en base a cambios
+}
+
+pruebas estaticas y dinamicas:{
+    leer documentacion, 
+    analizando el software, 
+    comparando,
+    diseñando el plan de prueba y como esta funcionando el software, 
+    elementos externos
+
+pruebas estaticas {
+    se basan en la examinacion manual de los elementos que conforman la construccion del software
+}
+
+que elementos son{
+    contratos 
+    planes
+    calendarios 
+    presupuestos
+    analizis de requerimiento
+    espesificaciones o reglas de negocion{
+        tecnicos
+        seguridad
+    }
+    en las pruebas dinamicas y estaticas{
+        las definiciones de {
+            historias del usuario, 
+            criterios de aceptacion
+            mockups
+        }
+        el diseño de la arquitectura
+        las pruebas (testware), {
+            donde guardar las pruebas,
+            donde encontrar nuevos datos
+        }
+        gias de usuario{
+            lo que percive el usuario en la gia y lo que se esta desarrollando deve ir alineado
+        }
+
+        evaluacion/revision del codigo:
+
+        Beneficios{
+            podemos detectar y corregir defectos de manera mas efectiva,
+            se suelen dar en el analizis y diseño frecuentemente
+            prevenimos defectos, 
+            podemos cubrir {
+                incosistencias
+                ambiguedades
+                contradicciones 
+                definiciones inexactas
+                requerimientos redundantes
+            }
+            reducir el retrabajo e incrrementar la productividad
+            reducir el costo y el tiempo ,mojorando la comunicacion entre todos los mienbros del equipo
+
+
+        }
+    }
+
+}
+defincion y diseño de pruebas :saber que son y cual es el costo de no hacerla {
+    que hace un tester{
+        encontrar poblemas, 
+        documentarlos,
+        comunicarlos
+    que pasa si no encuentro problemas:{
+        si no encuentras problemas en la face de testing el testing esta siendo ineficiente o insuficiente
+    }
+
+    que otros casos pueden darce en el uso de nuestro software
+
+    si cuando encuentras un problema {
+        no lo sabes documentar no ayuda mucho , 
+        si lo hacemos bien nos ayuda a que todos entiendan el problema
+    si como representante de la calidad del producto{
+        no sabe argumentar &&
+        proteger los intereses del negocio o los clientes, entoces
+        el testing no agrega valor
+
+    un caso de prueba deve tener {
+        nombre , 
+        decripcion, 
+        pasos,
+        resultados esperados,
+        resultados actuales{
+        ejemplo : abrir una puerta,detalles en la descripcion, explicar los pasos para abrir,
+        resultados esperados{
+            de todo lo que vallamos viendo 
+            las acciones 
+            pasos realizadas
+        }
+        resultado actual {
+            ya sea paso por paso o al final
+        }
+    }
+}
+

@@ -1,0 +1,6 @@
+
+que responsabilidades tiene el tester y el debugger
+como encotrar problemas
+como documentarlos
+como comunicarlos
+tecnicas y estrategias desde la pespectiva de la calidad
