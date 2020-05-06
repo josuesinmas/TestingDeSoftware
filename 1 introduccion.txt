@@ -1,0 +1,3 @@
+principios del testing moderno
+reducir el timpo de pruebas
+reducir costes

@@ -1,0 +1,80 @@
+cuando estamos listos para pruebas atpmaticas{
+    tenemos pruebas repetitivas
+    cuando no estan definidas las pruebas salen mal
+
+    buscamos optimizar las ejecuciones de pruebas
+    hay que tener en cuenta que hay que darles mantenimiento
+
+    hemos definido un framework
+}
+
+pruebas unitarias{
+    un pedazo de codigo
+}
+pruebas de integracion{
+    como hacemos que el cojunto de software funcione junto
+
+}
+pruebas funcionales o de aceptacion{
+    capturar entradas
+
+}
+
+TDD(test driven development){
+    es una tecnica de diseño e implementacion de software 
+    nos permite obtener una cobertura de pruebas muy alta:no indica que tengamos una buena calidad de tests, no hay que fijarse solamente el ese valor
+    proceso TDD{
+        escribimos una pruebas
+        ejecutamos la prueba:falla
+        se escribe el codigo
+        ejecutamos la prueba:pasa
+    }
+}
+
+BDD(behavior Driven Development){
+    framework
+    desarrollo giado por el comportamiento
+    tambien se escriben pruebas antes del codigo pero no son pruebas unitarias son pruebas desde el punto de vista del negocio
+    entre mas claros los casos de pruebas
+    mas eficiente es la cobertura de prueba
+    entre menos errores o ambiguedad tengan los casos de pruebas
+    son mas faciles de ejecutar o automatizar
+
+
+}
+
+analizis y diseño{
+    plan de prueba (TDD){
+        desarrollo
+        pruebas
+        lieracion
+        mantenimiento
+        simpre se puede volver a tras en alguna prueba por {
+            impacto
+            organizar
+            actualizacion
+        }
+    }
+    BDD(en base al negocio){
+
+    }
+}
+
+GHERKIN{
+    keywords{
+        feature
+        scenario
+        given, when,then,and,but(steps)
+        background
+        scenario outline
+        examples{
+            feature:el usuario habre una puerta de perilla para salir
+            scenario:el usuario tiene una puerta cerrada
+            give:girando la perilla
+            when: la puerta abre hacia fuera
+            then:la pueta queda abierta
+            and:el usuario puede salir
+        }
+        
+    }
+}

@@ -1,0 +1,119 @@
+Debuging sirve para localizarlos y entender el defecto
+uno de los principales problemas es el tiempo que tardan o errores en ejecucion los desarrolladores 
+
+debugging sirbe para :encontrar , alaizar y arreglar defectos
+
+beneficiados{
+    programador 
+    tester
+    analista/investigador
+
+    objetivo: analizar ,las variables , como se comporta el sistema
+
+}
+errores :siempre van a estar y es una oportunidad de mejoras
+
+sintomas de errores{
+    obtencion de salida incorrecta
+    realizacion de operaciones fuera de lo normal
+    no finalizacion del programa(ciclos ifinitos,)
+    caidad del programa
+}
+
+el depurador (debugger)permite:{
+    ejecutar linea a linea
+    detener la ejecucion temporalmente{
+        en una linea de codigo incorrecta
+        o en determinadas situaciones
+    }
+    visualizar el contenido de las variables
+    cambiar el valor del entorno de ejecucion para poder ver el defecto de uan correcion en el programa
+}
+
+debugger : erramienta de ide o buscador
+manual:imprimir en pantalla los valores
+local/remmota
+
+herramientas{
+    prestar atecion a las advertencia
+    estandares de compilacion
+    verificacion sintactica y logica: el orden de los comando altera el resultado
+
+}
+
+tecnicas de depuracion{
+    tratar de ir corrrigiendo nuestras tecnicas y practicas
+    
+    observar valores de variables 
+    detener temporalmente la aplicacion
+
+    logs{
+        almacenar los valores 
+        rastreo de informacion
+    }
+    historial{
+        capacidad de analisis forence
+        comparar valores
+        agrupar informacion
+
+    }
+    monitor reportes{
+        prevenir ataque o fallas 
+        observar anomalias
+        acelerar tiempos de respuesta
+
+    }
+
+    desventajas de no tener log{
+        visibilidad nula de errores
+        metodologia de trabajo no estandarizado
+        accesos e informacion descentralizada
+        incremento del tiempo de respuesta
+    }
+    ventajas de generar un reporte / historial{
+        aplicar erramientas o tecnicas de machine learning
+        mejorar la gestion y el control de la informacion
+        detectar amenazas de red o virus
+        prevenir fugas de informacion, asi como comportamientos inadecuados
+
+    }
+    tenemos dos faces{
+        face 1 :encontrar errores{
+            ir al modulo que falla
+            establecer breakpoints{
+                en la asignacion de valores
+                procesamiento de valores
+                cambio de estados
+            }
+            diseñar una matrix de pruebas{
+                señalas cada uno de los puntos de verificacion
+            }
+            establecer los datos de pruebas
+            comenzar a depurar
+        }
+        corregir un errores
+    }
+
+}
+
+pruebas de verificacion{
+    tratar de reproducir un escenario fallido con los datos usados
+    se busca nuevos escenarios donde se utilicen valores relativos siguiente flujos adicionales{
+        otras plataformas
+        otros sistemas operativos
+    }
+    pruebas de regresion{
+        la matriz de prueba durante en debugging nos permite identificar modulos impactados que requieren regresion
+        las pruebas de regresion ya fallaron la primera vez al no tener suficiento cobertura , debemos incorporar nuevos datos
+        y si se puede otros mas
+    }
+    verificar la documentacion{
+        se procura actualizar documentacion
+        comentarios en el codigo
+        documentacion tecnicas
+        pruebas unitarias
+        pruebas especificas
+        matrices de pruebas
+        plan de pruebas
+    }
+}

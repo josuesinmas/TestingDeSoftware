@@ -1,0 +1,23 @@
+defecto: aquello que no cumple nos requerimientos de diseño , arquitectura
+sugerencia:como la experiencia del usuario se ve afectada
+ejemplos de sugerencia: el mensaje de error no comunica adecuadamente
+ejemplo dos : el color de la pantalla no contrasta bien con el texto
+ejemplo tres : no recibi un correo adicional de confirmacion
+
+
+si la calidadd la define el usuario sus sugerencias se vuelven defectos?
+
+sugerencias combertidas en defectos se pueden combertir en actualizaciones{
+    hace lenta la operacion
+    detiene parcial o total del proceso
+    el contenido o el flujo confunde al usuario
+    deja cometer muchos errores al usuario
+    la traduccion o el lenguaje empleado no es correcto
+    no funciona sin internet
+}
+como reportar una sugerencia o un defecto{
+    hasegurarnos que sea un defecto
+
+    comprobar que tienes el resultado esperado
+    
+}

@@ -1,0 +1,33 @@
+Razone por las que aparecen los defectos{
+    hay precion de tiempo en la entrega del software
+    descuidos en el diseño
+    inexperiencia o falta de conocimiento
+    falta de comunicacion en los requerimientos
+    diseño complejo de codigo
+    desconocimiento de las tecnologias usadas
+}
+como crear un proceso de gestion de bugs{
+    que debe de hacer la persona que encuentra un defecto
+    en que herramientas debe documentar el defecto
+    como vamos a almacenar la informacion 
+    que informacion requiere el equipo de desarrollo para poder resolver un defecto
+    cuales son los etatus que se manejan para que fluya la resolucion del defecto
+    cuales son los criterios de aceptacion de cierre del defecto
+}
+siclo de gestion{
+    hacemos el reporte del defectoes
+    revisado
+    se asigna al desarrollador 
+    y se cambia a estatus de arreglado o en proceso
+    si no es un problema se rechaza
+
+}
+
+repositorio y monitoreo de defectoo{
+    una vez instaurado el proceso de gestion de bugs
+    tambien se debe precisar quien tiene acceso a los bugs
+    y cuales son los permisos que tiene, por cuanto tiempo se almacenan,
+    encuentra
+    
+
+}
