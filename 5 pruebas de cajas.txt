@@ -1,35 +1,49 @@
-pueden haber caja negra,blanca y gris: se diferencian en la proteccion que les dan a los datos
+pueden haber caja negra,blanca o gris
 
-caja negra y caja blanca las probamos en la caja gris
-
-en la caja negra no conocemos el softawe, hacemos pruebas en los campos (entradas de formularios){
-    particion de equivalencia {
-        por ejemplo tener 5 dijitos y alguien introduce 8
-        o cualquier dato negativo
-        checkbox
-        True ,false
-
-        cuando probamos un proceso en general podemos como se comporta el componente, tecnicas de casos de uso
-
+si nesecitamos conprobar la integracion de los sistemas blanca y negra las probamos en la caja gris
+cajas de pruebas{
+    en la caja negra{
+        no conocemos el softawe, 
+        hacemos pruebas en los campos (entradas de formularios){
+        particion de equivalencia {
+            por ejemplo tener 5 dijitos y alguien introduce 8
+            o cualquier dato negativo
+            checkbox
+            fechas
+            }
+        }
+        al probar un proceso general vemos como se comporta el componente, tecnicas de casos de uso
+    }
+    en la caja blanca{
+        cobertura de declaraciones
+        cobertura de codigo {
+            sentencias
+            decisiones
+            condiciones
+            evitar codigo inutil
+        }
+    }
+    cajas de pruebas gris{
+        datos y micro servicios
+        nesecitamos conocer tanto la caja negra como la caja blanca
+        casos de negocios
+        pruebas end to end{
+            como se crean usuarios 
+            como se agregan datos 
+            donde se almacenan los datos y 
+            donde se visualizan
+        }
+        pruebas de integracion{
+            respuestas y comunicacion entre todos los datos
+        }
     }
 }
-en la caja blanca{
-    cobertura :de declaraciones
-    cobertura de codigo {
-        sentencias
-        decisiones
-        condiciones
-        evitar codigo inutil
-    }
-}
-cajas de pruebas gris{
-    datos y micro servicios
-    nesecitamos conocer tanto la caja negra como la caja blanca
-    casos de negocios
-    pruebas end to end:como se crean usuarios , como se agregan datos , donde se almacenan los datos y se visualizan
-    pruebas de integracion:respuestas y comunicacion entre todos los datos
+
+
+
 
 }
+
 getion de monitoreo y control{
     getion de pruebas{
         planiacion de pruebas{
@@ -40,7 +54,7 @@ getion de monitoreo y control{
             control: se toman acciiones para alcanzar los objetivos
         }
         analisis de pruebas{
-            icluye decidir cuales son las prioridades
+            incluye decidir cuales son las prioridades
 
         }
         diseño de pruebas{
@@ -51,14 +65,20 @@ getion de monitoreo y control{
             hacer una trazabilidad entre pruebas y sus condiciones
 
         } 
-        implementacion de puebas: para prepararnos para hacer las pruebas tenemos que asegurarnos de tener todo lo necesaario par ello
+        implementacion de puebas{
+            para prepararnos para hacer las pruebas:
+            asegurarnos de tener todo lo necesaario par ello
+        }
         ejecucion de pruebas{
             se ejecutan de acuerdo con el programa de ejecucion
         }
         finalizacion de las pruebas{
             saber que porcentaje se cubrio 
-            cuantos defectos se derivaron:teccnicas o de proceso
-            aprender lecciones del defecto, falto documentacion o no se entendio bien
+            cuantos defectos se derivaron:tecnicas o de proceso
+            aprender lecciones del defecto{
+                falto documentacion 
+                no se entendio bien
+            }
             cuantas pruebas se nesecitan hacer para mantenerlas actualizadas
         }
     }

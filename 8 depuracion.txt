@@ -1,22 +1,28 @@
+los Errores siempre van a estar y es una oportunidad de mejoras
 Debuging sirve para localizarlos y entender el defecto
-uno de los principales problemas es el tiempo que tardan o errores en ejecucion los desarrolladores 
+uno de los principales problemas es el tiempo que se tarda 
+errores en ejecucion los desarrolladores son bastante comunes
 
-debugging sirbe para :encontrar , alaizar y arreglar defectos
+debugging {
+    encontra
+    analizar
+    arreglar defectos
 
 beneficiados{
     programador 
     tester
     analista/investigador
+    compañia
 
-    objetivo: analizar ,las variables , como se comporta el sistema
+    objetivo{
+        analizar variables y como se comporta el sistema
 
 }
-errores :siempre van a estar y es una oportunidad de mejoras
 
 sintomas de errores{
     obtencion de salida incorrecta
     realizacion de operaciones fuera de lo normal
-    no finalizacion del programa(ciclos ifinitos,)
+    no finalizacion del programa(ciclos infinitos,)
     caidad del programa
 }
 
@@ -27,25 +33,24 @@ el depurador (debugger)permite:{
         o en determinadas situaciones
     }
     visualizar el contenido de las variables
-    cambiar el valor del entorno de ejecucion para poder ver el defecto de uan correcion en el programa
+    cambiar el valor del entorno de ejecucion
+    poder ver el defecto de una correcion en el programa
 }
-
-debugger : erramienta de ide o buscador
-manual:imprimir en pantalla los valores
-local/remmota
-
 herramientas{
     prestar atecion a las advertencia
     estandares de compilacion
-    verificacion sintactica y logica: el orden de los comando altera el resultado
-
+    verificacion sintactica y logica{
+        el orden de los comando altera el resultado
+    }
 }
 
 tecnicas de depuracion{
-    tratar de ir corrrigiendo nuestras tecnicas y practicas
+    siempre ir corrrigiendo nuestras tecnicas y practicas
     
-    observar valores de variables 
-    detener temporalmente la aplicacion
+    podemos {
+        observar valores de variables 
+        detener temporalmente la aplicacion
+    }
 
     logs{
         almacenar los valores 
@@ -55,15 +60,12 @@ tecnicas de depuracion{
         capacidad de analisis forence
         comparar valores
         agrupar informacion
-
     }
-    monitor reportes{
+    monitor de reportes{
         prevenir ataque o fallas 
         observar anomalias
         acelerar tiempos de respuesta
-
     }
-
     desventajas de no tener log{
         visibilidad nula de errores
         metodologia de trabajo no estandarizado
@@ -74,7 +76,8 @@ tecnicas de depuracion{
         aplicar erramientas o tecnicas de machine learning
         mejorar la gestion y el control de la informacion
         detectar amenazas de red o virus
-        prevenir fugas de informacion, asi como comportamientos inadecuados
+        prevenir fugas de informacion,
+        detectar y prevenir comportamientos inadecuados
 
     }
     tenemos dos faces{
@@ -98,14 +101,18 @@ tecnicas de depuracion{
 
 pruebas de verificacion{
     tratar de reproducir un escenario fallido con los datos usados
-    se busca nuevos escenarios donde se utilicen valores relativos siguiente flujos adicionales{
+    se busca nuevos escenarios donde se utilicen valores relativos siguiendo flujos adicionales{
         otras plataformas
         otros sistemas operativos
     }
     pruebas de regresion{
-        la matriz de prueba durante en debugging nos permite identificar modulos impactados que requieren regresion
-        las pruebas de regresion ya fallaron la primera vez al no tener suficiento cobertura , debemos incorporar nuevos datos
-        y si se puede otros mas
+        la matriz de prueba durante en debugging nos permite {
+            identificar modulos impactados que requieren regresion
+        }
+        las pruebas de regresion ya fallaron la primera vez{
+            Al no tener suficiento cobertura 
+            debemos incorporar nuevos datos
+            y si se puede otros mas
     }
     verificar la documentacion{
         se procura actualizar documentacion

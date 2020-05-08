@@ -1,34 +1,47 @@
 contruccion del software{
-    presupuesto, recursos y timpo
-    actividades claves de pruebas:
-    para no salirnos de tiempo ni presupuesto
-    ciclo de vida del software:{
-        analisis ,diseño ,codificacion,puebas,
+    presupuesto
+    recursos
+    timpo
+    actividades claves de pruebas{
+        para no salirnos de tiempo ni presupuesto
+        ciclo de vida del software{
+            analisis
+            diseño 
+            codificacion
+            puebas{
+                validacion
+                mantenimiento 
+                evolucion ,
+                definimos las nesecidades
+                vualta a la face de analisis
+            }
+    Etapa de analisis{
+        se analiza la documentacion de los requerimientos del proyecto{
+            grupo de pruevas.
+            obserbar cada uno de las acciones que se puedan tomar
+        }
 
-        validacion,mantenimiento y evolucion ,definimos las nesecidades y vualta a la face de analisis
+    Face de diseño{
+        establecemos los criterios visuales{
+        Entradas de usuario o imput
+        si itroduces el imput incorrecto?
+        acciones inesperadas
+        }
 
-Etapa de anañlisis : se analiza la documentacion de los requerimientos del proyecto{
+    Face de codigo {
+        modulos
+        fuciones 
+        estructura de la base de datos
+        se pueden verificar los datos sin modulos o funciones, 
+        podemos testear el backend y el frontend por separado
+    }
 
-    grupo de pruevas : que deveria hacer el software si el usuario tiene una seccion fallida, y cuando no.
-    obserbar cada uno de los argumentos que pueda introducir el usuario
-
-Face de diseño: establecemos los criterios visuales:{
-
-    imput:podria accectar simbolos , letras, numeros,
-    si itroduces el imput correcto o
-    cuantas veces te deja ingresar los datos de manera incorrecta antes de bloquear el sistema
-
-Face de codigo {
-    tendras modulos ,
-    fuciones o estructura de la base de datos
-    se pueden verificar los datos sin modulos o funciones, 
-    podemos testear el backend y el frontend por separado
+    Face de pruebas:{
+        se pueden hacer pruebas en distintos faces o dispocitivos , 
+        o la parte funciona , 
+        tambien hay pruebas de validacion o de acceptacion
+    }
 }
-Face de pruebas:{
-    se pueden hacer pruebas en distintos faces o dispocitivos , 
-    o la parte funciona , 
-    tambien hay  pruebas de validacion o de acceptacion
-
 Estrategia de pruebas {
     que problemas tenemos que resolver 
     que problema tenemos que evitar
@@ -62,7 +75,6 @@ Estrategia de pruebas {
         datos de entrada
         reportes{a,b,c}
     }
-}
 
 arquitectura migracion{
     accesos{
@@ -91,7 +103,6 @@ arquitectura migracion{
         1000 usuarios 
         5000 usuarios
     }
-}
 
 testing y checking:{
     exploracion de una idea y nunca termina,
@@ -125,7 +136,6 @@ cuando es esencial la automatizacion{
     integracion continua,
     liberacion continua y 
     automatizacion
-}
 el testing te permite explorar y el checking te permite automatizar
 
 Testing Ágil{
@@ -143,14 +153,13 @@ Testing Ágil{
             provar todos los componentes,integraciones , aceptacion
         }
     }
-}
 
 niveles de pruebas de software: como separar las pruebas{
     pruebas de componentes
     pruebas de integracion: como se integran todos los sistemas y todos se comunican
     pruebas de sistema:porbarlo en multiples sistemas
     pruebas de aceptacion: que el software cumppla con todos los requerimientos del cliente o de la idea inicial.
-}
+
 tipos de pruebas de software: que tendremos que realizar{
     pruebas funcionales :como funcion un sisteama, como interactua el usuario con el ,
     pruebas no funcionales: velocidad , color , usabilidad.
@@ -165,7 +174,6 @@ tipos de pruebas de software: que tendremos que realizar{
         clasificamos las actividades,
         cuando hacemos pruebas de backend de fontend 
         pruebas de estructura en base a cambios
-}
 
 pruebas estaticas y dinamicas:{
     leer documentacion, 
@@ -176,7 +184,6 @@ pruebas estaticas y dinamicas:{
 
 pruebas estaticas {
     se basan en la examinacion manual de los elementos que conforman la construccion del software
-}
 
 que elementos son{
     contratos 
@@ -223,7 +230,6 @@ que elementos son{
         }
     }
 
-}
 defincion y diseño de pruebas :saber que son y cual es el costo de no hacerla {
     que hace un tester{
         encontrar poblemas, 
@@ -259,5 +265,5 @@ defincion y diseño de pruebas :saber que son y cual es el costo de no hacerla {
             ya sea paso por paso o al final
         }
     }
-}
+
 

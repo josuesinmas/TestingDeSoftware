@@ -1,70 +1,146 @@
-experiencia del usuario
-no se deve permitir que el sowfare tenga errores
-las pruebas es una manera de exprorar el producto
-el software perfecto no exsite pero cuando las personas empiesen a usar nuvos dispositivos
-ejemplos aple y windows la ventana azul
-uber con los robos , pruebas por costo ,problemas legales,
-puedes estar en una etapa de mejora continua
-husando metodologias agiles
-organizar y tener buena comunicacion con todo el equipo
-preguntarte ciempre que puedes hacer mejor
-tenemos que tener metodologia , herramientas y recursos ,
-.
-dentro de la vida del sowfare hay una etapa diseño programacion ,etapas de pruebas,
-tienes que conocer bien el software
-definir la falta de calidad
-detectar y coregir la falta de calidad 
+tips importantes{
+    lo mas importante es la experiencia del usuario al usar nuestro software
+    no se debe permitir que el software tenga errores
+    las pruebas es una manera de exprorar el producto
+    el software perfecto no exsiste, y aunque no tengamos fallos , puede cambiar el entorno y vuelta a tener errores
+    tipos{
+        pruebas por costo
+        problemas legales
+    }
+    los tester debemos estar en una etapa de mejora continua
+    usando metodologias agiles es una buena forma de optimizar proyecto
+    organizar y tener buena comunicacion con todo el equipo
+    preguntarte siempre que puedes hacer mejor
+    debemos tener{
+        metodologia 
+        herramientas 
+        recursos
+    }
+    dentro de la vida del software {
+        etapa diseño
+        programacion 
+        etapas de pruebas
+    conocer bien el software
+    definir las falta de calidad
+    detectar y corregir la falta de calidad 
+    }
 
-calidad del producto
-calidad del software ,requerimientod diseño codigo sistema
-estandares procedimientos 
-procesos del proyectos: claidad del procesos
+    calidad del producto{
+        calidad del software {
+            requerimientos{
+                diseño 
+                codigo 
+                sistema
+            }
+        }
+        estandares {
+            procedimientos
+            certificaciones estandares y metodologias
+            istQB,IEEE,tpi:algunos estandares
+        }
+    calidad de los procesos y el proyecto{
+            percecion entre lo analizado y lo deseado
+            la calidad la define el cliente
+            el producto debe cumplir los requisitos{
+                programacion
+                diseño
+                verificacion
+                validacion
+            }
+        }
+    }
+}
 
-pueden haber certificaciones estandares y metodologias
-istQB,IEEE,tpi:algunos estandares
+anomalia{
+    cualquie einsatisfacion,
+    condicion unica
+}
 
-clidad es una percecion entre lo analizado y lo deseado; la calidad la define el cliente, 
-forma parte del proceso ,el grado con el que un sistema cunple con los requisitos espesificados 
-no solo es en la face de programar , en todas tenemos que conocer el producto
-verificacion y validacion
-algien tendra que revisar toda el software
+defecto{
+    problema que puedes reproducir una y otra vez
+}
+fallo{
+    situaciones no asociadas al software
+    corte de electricidad
+}
+error{
+    fallo humano por que no comprende la interfaz o algo parecido
+}
 
-anomalia:cualquie einsatisfacion, condicion unica
+el error humano es el que inyecta defectos
+en los proceso del software ocacionalmente se observan anomalias 
+y esto causa fallos del sistema
 
-defecto: problkema que puedes reproducir una y orta vez
-fallo:situaciones no asociadas al software, como corte de electricidad
-
-error:fallo humano por que no comprende la interfaz o algo prarecido
-
-el error unamo es el que iyecta defectod en el proseso del sowfare ocacionalmente se observan anomaloas y esto causa fallos del sistema
-
-testin moderno:evolucion natural de testing agiles
-el tester y el desarroyador evoluciona juntos
-
+testing moderno{
+    evolucion natural de testing agiles
+    el tester y el desarroyador evoluciona juntos
+}
 7 principios del testing moderno{
     1:nuestra prioridad es mejorar el negocio
-    2:buscar modelos como link thinkin o teorias de restrinciones par identificar priorizar y mitigar cuellos de botellas 
+
+    2:buscar modelos como link thinkin o teorias de restrinciones 
+    par identificar priorizar y mitigar cuellos de botellas 
+
     3:para la mejora continua hay que adaptarce y optimizar para tener exito 
-    4:nos preocupamos muchos de la cultura de calidaden el equipo, y asesorarmos , lideramos y nutrimos al equipo para llevarlos a una cultura de calidad mas madura
+
+    4:nos preocupamos muchos de la cultura de calidaden el equipo, y
+    asesorarmos , lideramos y nutrimos al equipo para llevarlos a una 
+    cultura de calidad mas madura
+
     5:la calidad la define el cliente
-    6:usar una estensa cantidad de datos de prievas, con todas las metricas que tengamos
-    7:expandir la habilidades de testing y conocimiento a todo el equipo , entendemos qque esto reduce o elimina la nesecidad de un especializado
+
+    6:usar una estensa cantidad de datos de prievas, 
+    con todas las metricas que tengamos
+
+    7:expandir la habilidades de testing y conocimiento a todo el equipo , 
+    entendemos qque esto reduce o elimina la nesecidad de un especializado
 
 }
-quienes son los encargados de que estos principios se cumplan
-manual tester:nos ayuda e definir los casos de pruebas, establecer la estrategia, planear y organizar
-tester que automatiza las pruevas:tester que debe organizar bien sus tareas
-tester dedicado al area de seguridad: evitar que see roben datos , reducir costos ,evitar que alla lugares por los que entren personas no autorizadas o puedan alterar los datos
-tester de datos:limpia y organiza los datos
-sdet: pruebas unitarias,hace que las pruebas se ejecuten antes de liberar el codigo
-devops:conoce todo lo anterior y sabe como automatizar la operacion
-QA engineer:son como unos couch,
-un testerr tiene que saber como se integra todo
-si crese el codigo cresen las pruebas
-pensamietos lateral, programacion, protocolos y estandares,
-analisis limpieza de datos:para que los datos no sean falsos positivos
-el tester manual tiene que automatizar,y sabe liberar  y atomatizar las pruebas antes de el lanzamiento
-entrega continua :
-procesos de calida,politicas ,couhin ,diseño, documentacion
-todos en el equipo son tester
+los encargados de que estos principios se cumplan{
 
+manual tester:{
+    nos ayuda e definir los casos de pruebas, 
+    establecer la estrategia, 
+    planear y organizar
+}
+tester que automatiza las pruevas{
+    tester que debe organizar bien sus tareas
+}
+tester dedicado al area de seguridad {
+    evitar que see roben datos , 
+    reducir costos ,
+    evitar que hayan lugares por los que entren personas no autorizadas o puedan alterar los datos
+}
+tester de datos{
+    limpia y organiza los datos
+}
+sdet{
+    pruebas unitarias
+    hace que las pruebas se ejecuten antes de liberar el codigo
+}
+DevOps{
+    conoce todo lo anterior y sabe como automatizar la operacion
+}
+QA engineer:{
+    son como unos couch
+}
+un tester tiene que saber como se integra todo
+si crese el codigo cresen las pruebas
+pensamietos lateral, programacion, protocolos y estandares
+
+analisis y limpieza de datos{
+    para que los datos no sean falsos positivos
+}
+el tester manual {
+    tiene que automatizar y 
+    sabe liberar  y 
+    atomatizar las pruebas antes de el lanzamiento
+}
+entrega continua {
+    procesos de calida,
+    politicas ,
+    couhin ,
+    diseño, 
+    documentacion
+}
+recordar siempre que todos en el equipo son testers

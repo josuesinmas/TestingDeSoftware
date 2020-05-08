@@ -12,8 +12,6 @@ sugerencia{
     }
 }
 
-
-
 si la calidadd la define el usuario sus sugerencias se vuelven defectos?
 
 sugerencias combertidas en defectos se pueden convertir en actualizaciones{

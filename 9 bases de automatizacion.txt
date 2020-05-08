@@ -1,18 +1,20 @@
-cuando estamos listos para pruebas atpmaticas{
-    tenemos pruebas repetitivas
-    cuando no estan definidas las pruebas salen mal
+cuando estamos listos para pruebas automaticas{
+    si{
+        tenemos pruebas repetitivas
+        cuando tenemos bien definidas las pruebas
 
     buscamos optimizar las ejecuciones de pruebas
+    }
+    
     hay que tener en cuenta que hay que darles mantenimiento
-
-    hemos definido un framework
+    hemos definido un framework con este proceso
 }
 
 pruebas unitarias{
-    un pedazo de codigo
+    Probamos un pedazo de codigo 
 }
 pruebas de integracion{
-    como hacemos que el cojunto de software funcione junto
+    como hacemos que funcione el cojunto de software 
 
 }
 pruebas funcionales o de aceptacion{
@@ -22,7 +24,9 @@ pruebas funcionales o de aceptacion{
 
 TDD(test driven development){
     es una tecnica de diseño e implementacion de software 
-    nos permite obtener una cobertura de pruebas muy alta:no indica que tengamos una buena calidad de tests, no hay que fijarse solamente el ese valor
+    nos permite obtener una cobertura de pruebas muy alta:
+    no indica que tengamos una buena calidad de tests,
+    no hay que fijarse solamente en ese valor
     proceso TDD{
         escribimos una pruebas
         ejecutamos la prueba:falla
@@ -34,7 +38,8 @@ TDD(test driven development){
 BDD(behavior Driven Development){
     framework
     desarrollo giado por el comportamiento
-    tambien se escriben pruebas antes del codigo pero no son pruebas unitarias son pruebas desde el punto de vista del negocio
+    tambien se escriben pruebas antes del codigo pero no son pruebas unitarias
+    pruebas desde el punto de vista del negocio
     entre mas claros los casos de pruebas
     mas eficiente es la cobertura de prueba
     entre menos errores o ambiguedad tengan los casos de pruebas
@@ -47,9 +52,9 @@ analizis y diseño{
     plan de prueba (TDD){
         desarrollo
         pruebas
-        lieracion
+        liberacion
         mantenimiento
-        simpre se puede volver a tras en alguna prueba por {
+        simpre se puede volver atras en alguna prueba por {
             impacto
             organizar
             actualizacion

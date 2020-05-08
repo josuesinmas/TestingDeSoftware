@@ -18,15 +18,15 @@ siclo de gestion{
     hacemos el reporte del defectoes
     revisado
     se asigna al desarrollador 
-    y se cambia a estatus de arreglado o en proceso
+    se cambia a estatus de arreglado o en proceso
     si no es un problema se rechaza
-
 }
 
 repositorio y monitoreo de defectoo{
     una vez instaurado el proceso de gestion de bugs
-    tambien se debe precisar quien tiene acceso a los bugs
-    y cuales son los permisos que tiene, por cuanto tiempo se almacenan,
+    precisar quien tiene acceso a los bugs
+    cuales son los permisos que tiene
+    por cuanto tiempo se almacenan
     encuentra
     
 

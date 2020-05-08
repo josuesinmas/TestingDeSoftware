@@ -1,18 +1,25 @@
-medir todo 
+es importante tener varias fuentes de medicion para medir todo lo posible
 las empresas o los individuos deven tener un monitoreo de lo que se esta haciendo y se hara despues
 
-si identificamo un riesgo: tomar acciones 
-si identificamos falta de ambiente: parche , verciones , o sistemas opertivos
-si el criterio de salida no se cumple: re ajustar todo
-
-podemos ver el resultado de las pruebas y desempeño del equipo de testing
+si identificamo un riesgo{
+    tomar acciones 
+si identificamos falta de ambiente{
+    parchear
+    cambiar verciones 
+    actualizar sistemas opertivos
+si el criterio de salida no se cumple{
+    re ajustar todo
+}
+veremos el resultado de las pruebas y desempeño del equipo de testing
 
 retrabajo{
-    es la pricipal causa del retraso , que que los costes aumentes , cuando puede ser tan simple con documentar bien el proyecto
+    es la pricipal causa del retraso 
+    que los costes aumentes 
+    puede evitarse con documentar bien el proyecto
     la acciones y actividades 
-    falta o ma documentacion
+    falta o mala documentacion
     falta de capacitacion o dominio en las herramientas utilizadas
-    flata de capacitacion o dominio en el software a desarrollar
+    falta de capacitacion o dominio en el software a desarrollar
     falta de comunicacion
 
     
